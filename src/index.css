@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #eaeaea;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,6 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.color-guess{
+  width: 200px;
+  height: 200px;
+  background: blue;
 }
 
 

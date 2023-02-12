@@ -6,6 +6,7 @@ import Counter from '../pages/Counter';
 import Users from '../pages/Users';
 import StopCouter from '../pages/StopCounter';
 import Modal from '../pages/Modal';
+import ColorGuess from '../pages/Color/ColorGuess';
 
 const MainRoute = () =>{
   return (
@@ -17,6 +18,7 @@ const MainRoute = () =>{
 			<Route element={<Users />} path='users' />
 			<Route element={<StopCouter />} path='watch' />
 			<Route element={<Modal />} path='modal' />
+			<Route element={<ColorGuess />} path='color' />
 		</Routes>
 	);
 }
