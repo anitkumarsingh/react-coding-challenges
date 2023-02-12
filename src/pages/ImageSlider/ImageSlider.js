@@ -35,10 +35,18 @@ const ImageSlider = () => {
 						marginTop: '12px'
 					}}>
 					<div>
-						<button onClick={() => changeImageIndex('prevoius')}>Previous Slide</button>
+						<button
+							disabled={currentImageIndex === 0}
+							onClick={() => changeImageIndex('prevoius')}>
+							Previous Slide
+						</button>
 					</div>
 					<div>
-						<button onClick={() => changeImageIndex('next')}>Next Slide</button>
+						<button
+							disabled={currentImageIndex === sliderImage.length - 1}
+							onClick={() => changeImageIndex('next')}>
+							Next Slide
+						</button>
 					</div>
 				</div>
 			</div>
