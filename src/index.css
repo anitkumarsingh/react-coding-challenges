@@ -87,3 +87,20 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+.circle-container{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.point{
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  position: absolute;
+  font-size: 2rem;
+}

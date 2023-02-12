@@ -8,9 +8,10 @@ import StopCouter from '../pages/StopCounter';
 import Modal from '../pages/Modal';
 import ColorGuess from '../pages/Color/ColorGuess';
 import ImageSlider from '../pages/ImageSlider/ImageSlider';
+import DrawCircle from '../pages/Coordinate/DrawCircle';
 
-const MainRoute = () =>{
-  return (
+const MainRoute = () => {
+	return (
 		<Routes>
 			<Route element={<Home />} path='/' index />
 			<Route element={<Login />} path='login' />
@@ -21,8 +22,9 @@ const MainRoute = () =>{
 			<Route element={<Modal />} path='modal' />
 			<Route element={<ColorGuess />} path='color' />
 			<Route element={<ImageSlider />} path='slider' />
+			<Route element={<DrawCircle />} path='circle' />
 		</Routes>
 	);
-}
+};
 
 export default MainRoute;
