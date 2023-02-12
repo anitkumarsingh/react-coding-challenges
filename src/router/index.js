@@ -7,6 +7,7 @@ import Users from '../pages/Users';
 import StopCouter from '../pages/StopCounter';
 import Modal from '../pages/Modal';
 import ColorGuess from '../pages/Color/ColorGuess';
+import ImageSlider from '../pages/ImageSlider/ImageSlider';
 
 const MainRoute = () =>{
   return (
@@ -19,6 +20,7 @@ const MainRoute = () =>{
 			<Route element={<StopCouter />} path='watch' />
 			<Route element={<Modal />} path='modal' />
 			<Route element={<ColorGuess />} path='color' />
+			<Route element={<ImageSlider />} path='slider' />
 		</Routes>
 	);
 }
